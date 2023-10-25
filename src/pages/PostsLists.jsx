@@ -58,14 +58,14 @@ const PostList = () => {
     <>
       <div className="flex">
         <div className=" container w-2/4 bg-red-400">
-          <div className="container w-2/4 my-72 flex flex-col items-center h-auto fixed">
+          <div className="container w-2/4 my-60 flex flex-col items-center h-auto fixed">
             <h1 className="font-bold text-3xl text-white">Formulario para Publicación</h1>
             <form onSubmit={handleSubmit} ref={ref} className=" w-4/5 flex flex-col my-auto">
               <input
                 type="text"
                 placeholder="Titulo"
                 name="title"
-                className="w-3/5 mx-[140px] my-4 " />
+                className="w-3/5 mx-[130px] my-4 " />
 
               <input type="text" placeholder="Mensaje" name="message" className="w-3/5 my-4 mx-[140px]"/> <br />
               <button type="submit" className="border bg-black text-white p-5 rounded-xl w-2/5 mx-auto hover:bg-blue-600">
