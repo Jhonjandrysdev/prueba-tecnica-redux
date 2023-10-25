@@ -30,7 +30,7 @@ const Login = () => {
   return (
     <>
       <div
-        className="bg-gradient-to-r from-sky-500 to-indigo-500 h-[642px] items-center flex justify-center">
+        className="bg-gradient-to-r from-sky-500 to-indigo-500 h-[645px] items-center flex justify-center">
         <div className="container mx-auto h-4/4 w-5/5 my-auto bg-gradient-to-r from-purple-500 to-pink-500">
           <h1 className="text-center font-mono text-4xl text-white h-min mt-11 mb-6 ">
             Bienvenido a la Prueba Tecnica
