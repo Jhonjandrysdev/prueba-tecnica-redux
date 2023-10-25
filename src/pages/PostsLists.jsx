@@ -65,9 +65,9 @@ const PostList = () => {
                 type="text"
                 placeholder="Titulo"
                 name="title"
-                className="w-3/5 mx-[100px] my-4 " />
+                className="w-3/5 mx-[80px] my-4 " />
 
-              <input type="text" placeholder="Mensaje" name="message" className="w-3/5 my-4 mx-[140px]"/> <br />
+              <input type="text" placeholder="Mensaje" name="message" className="w-3/5 my-4 mx-[80px]"/> <br />
               <button type="submit" className="border bg-black text-white p-5 rounded-xl w-2/5 mx-auto hover:bg-blue-600">
                 Enviar Mensaje
               </button>
